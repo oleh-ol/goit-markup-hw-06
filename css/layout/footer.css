@@ -1,0 +1,413 @@
+.footer-section {
+    background-color: var(--navy-blue);
+}
+.footer-section>.container {
+    padding: 96px 16px;
+    /* background-color: var(--navy-blue); */
+}
+.footer-logo-container {
+    margin-bottom: 72px;
+}
+.footer-logo {
+    display: block;
+    color: var(--IRIS);
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.footer-logo-span {
+    color: var(--CLOUD);
+}
+.footer-text {
+    width: 264px;
+    color: #F4F4FD;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.footer-social-title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--WHITE);
+    margin-bottom: 16px;
+}
+.footer-social-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 72px;
+}
+.footer-social-list {
+    display: flex;
+    gap: 16px;
+}
+.footer-social-item {
+    width: 40px;
+    height: 40px;
+}
+.footer-social-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.teleg-subscribe-title {
+    text-align: center;
+    color: var(--WHITE, #FFF);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+.teleg-subscribe-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.teleg-subscribe-input {
+    width: 288px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid var(--WHITE, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    outline: transparent;
+    padding: 8px 16px;
+    background-color: transparent;
+
+    color: var(--WHITE, #FFF);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+
+}
+
+.teleg-subscribe-input::placeholder {
+    color: var(--WHITE, #FFF);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: 0.04em;
+}
+
+.teleg-subscribe-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 165px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    background: var(--IRIS, #4D5AE5);
+    padding: 8px 24px;
+
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+    transition: background-color cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.teleg-subscribe-btn:hover,
+.teleg-subscribe-btn:focus {
+    background-color: var(--OCEAN);
+}
+
+@media screen and (min-width: 768px) {
+
+    .footer-section>.container {
+        padding: 96px 108px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+    }   
+
+    .footer-logo {
+        display: block;
+        /* color: var(--IRIS);
+        font-family: Raleway, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        margin-bottom: 16px; */
+        text-align: start;
+    }
+    .teleg-subscribe-title {
+        text-align: start;
+    }
+    .footer-logo-container {
+        display: flex;
+        flex-direction: column;
+        max-width: 264px;
+    }
+    
+    .teleg-subscribe-form {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 1158px) {
+    .footer-section>.container {
+            padding: 96px 16px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0;
+        }
+    /* .footer-section {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    } */
+    .footer-section .container {
+        display: flex;
+        align-items: baseline;
+    }
+    .footer-logo-container {
+        margin-right: 120px;
+        margin-bottom: 0;
+    }
+    .footer-social-container {
+        margin-right: 80px;
+        margin-bottom: 0;
+    }
+    .footer-social-title {
+        margin-bottom: 16px;
+    }
+    .footer-social-list {
+        display: flex;
+        gap: 16px;
+    }
+    .footer-social-item {
+        width: 40px;
+        height: 40px;
+    }
+    .footer-social-link {
+        width: 100%;
+        height: 100%;
+        background-color: #4d5ae5;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .footer-social-link:hover,
+    .footer-social-link:focus {
+        background-color: #31d0aa;
+    }
+
+    .footer-social-icon {
+        fill: #f4f4fd
+    }
+    .teleg-subscribe-input {
+        width: 264px;
+        height: 40px;
+        /* border-radius: 4px;
+        border: 1px solid var(--WHITE, #FFF);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        outline: transparent;
+        padding: 8px 16px;
+        background-color: transparent;
+
+        color: var(--WHITE, #FFF);
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); */
+
+    }
+    
+}
+
+
+
+
+
+
+
+/* .footer-section {
+    background-color: #2E2F42;
+}
+
+.footer-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-section .container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-logo-container {
+    margin-right: 120px;
+}
+
+.footer-logo {
+    display: inline-block;
+    color: #4D5AE5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.footer-logo-span {
+    color: #F4F4FD;
+}
+
+.footer-text {
+    width: 264px;
+    color: #F4F4FD;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.footer-social-container {
+    margin-right: 80px;
+}
+
+.footer-social-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--WHITE);
+    margin-bottom: 16px;
+}
+
+.footer-social-list {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-social-item {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-social-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+    background-color: #31d0aa;
+}
+
+.footer-social-icon {
+    fill: #f4f4fd
+}
+
+
+.teleg-subscribe-form {
+    display: flex;
+    gap: 24px;
+}
+
+.teleg-subscribe-title {
+    color: var(--WHITE, #FFF);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+
+.teleg-subscribe-input {
+    width: 264px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid var(--WHITE, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    outline: transparent;
+    padding: 8px 16px;
+    background-color: transparent;
+
+    color: var(--WHITE, #FFF);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+
+}
+
+.teleg-subscribe-input::placeholder {
+    color: var(--WHITE, #FFF);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: 0.04em;
+}
+
+.teleg-subscribe-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 165px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    background: var(--IRIS, #4D5AE5);
+    padding: 8px 24 px;
+
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+    transition: background-color cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.teleg-subscribe-btn:hover,
+.teleg-subscribe-btn:focus {
+    background-color: var(--OCEAN);
+}
+
+.teleg-subscribe-btn-icon {
+    margin-left: 16px;
+} */
