@@ -1,3 +1,24 @@
+.features-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+    margin-bottom: 8px;
+}
+.features-text {
+    color: var(--SLATE);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.features-section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
 @media screen and (max-width: 767px) {
     .features-icon {
         display: none;
@@ -8,68 +29,38 @@
         gap: 72px;
 
     }
-    .features-section>.container {
-        padding: 96px 16px;
-    }
-    .features-title {
-        text-align: center;
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        color: var(--navy-blue);
-        margin-bottom: 8px;
-    }
-    .features-text {
-        color: var(--SLATE);
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-    }
 }
 
 @media screen and (min-width: 768px) {
+    .features-section {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
     .features-icon {
         display: none;
-    }
-    .features-section>.container {
-        padding: 96px 16px;
     }
     .features-list {
         display: flex;
         flex-direction: row;
-        gap: 24px;
+        row-gap: 72px;
+        column-gap: 24px;
         flex-wrap: wrap;
     }
     .features-list-items {
         flex-basis: calc((100% - (24px * 1)) / 2);
     }
     .features-title {
-        text-align: center;
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        color: var(--navy-blue);
-        margin-bottom: 8px;
+        text-align: left;
     }
-    .features-text {
-        color: var(--SLATE);
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-    }
-    
 }
 
 @media screen and (min-width: 1158px) {
+    .features-section>.container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     .features-icon {
         display: flex;
-    }
-    .features-section>.container {
-        padding: 120px 16px;
     }
     .features-list {
         display: flex;
@@ -93,15 +84,9 @@
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2E2F42;
-        margin-bottom: 8px;
     }
     .features-text {
-        color: #434455;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+        font-weight: 400;
     }
 }
 

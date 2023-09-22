@@ -1,5 +1,7 @@
-.portfolio-section>.container {
-    padding: 96px 16px;
+.portfolio-section{
+    max-width: 1440px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 .portfolio-section-title {
     color: var(--navy-blue);
@@ -65,8 +67,9 @@
 }
 
 @media screen and (min-width: 1158px) {
-    .portfolio-section>.container {
-        padding: 120px 16px;
+    .portfolio-section {
+        padding-top: 120px;
+        padding-bottom: 120px;
     }
     .portfolio-list {
         display: flex;
