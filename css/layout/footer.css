@@ -1,8 +1,9 @@
 .footer-section {
-    max-width: 1440px;
+    /* max-width: 1440px; */
     background-color: var(--navy-blue);
     padding-top: 96px;
     padding-bottom: 96px;
+    /* margin: auto; */
 }
 .footer-logo-container {
     max-width: 100%;
@@ -145,7 +146,9 @@
     .footer-section>.container {
         display: flex;
         flex-wrap: wrap;
-        gap: 24px;
+        column-gap: 24px;
+        row-gap: 72px;
+
     }   
 
     .footer-logo {
@@ -160,6 +163,9 @@
         margin-bottom: 16px; */
         text-align: start;
     }
+    .footer-logo-container {
+        margin-bottom: 0;
+    }
     .teleg-subscribe-title {
         text-align: start;
     }
@@ -168,6 +174,10 @@
         flex-direction: column;
         max-width: 264px;
     }
+    .footer-social-container {
+        align-items: start;
+        margin-bottom: 0;
+    }
     
     .teleg-subscribe-form {
         display: flex;
@@ -175,6 +185,7 @@
         flex-wrap: wrap;
         width: 100%;
     }
+
 
 }
 

@@ -2,7 +2,8 @@
     background-color: var(--CLOUD);
     padding-top: 96px;
     padding-bottom: 96px;
-    max-width: 1440px;
+    /* max-width: 1440px; */
+    /* margin: auto; */
 }
 .team-section-title {
     text-align: center;

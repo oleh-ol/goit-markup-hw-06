@@ -13,6 +13,8 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     display: block;
+    padding-top: 18px;
+    padding-bottom: 18px;
 }
 
 .logo-span {
